@@ -16,6 +16,10 @@ class App extends Component {
     actions: PropTypes.object.isRequired,
   }
     
+　　　　constructor(props) {
+    super(props)
+  }
+  
   render () {
     const { todos, actions } = this.props
 
